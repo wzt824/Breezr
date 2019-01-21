@@ -1,0 +1,29 @@
+.tableside .lineside:nth-of-type(2n-1) {
+  float: left;
+}
+.tableside .lineside:nth-of-type(2n) {
+  float: right;
+}
+.tableside .lineside {
+  background: white;
+  width: 49%;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+}
+.tableside .lineside h4 {
+  padding: 20px 20px 20px 20px;
+  color: #84505f;
+  font-size: 20px;
+  line-height: 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.tableside .lineside #basic-line, .tableside .lineside #basic-area, .tableside .lineside #scatter, .tableside .lineside #Negative, .tableside .lineside #Rainfall, .tableside .lineside #Pie, .tableside .lineside #Nested, .tableside .lineside #Doughnut, .tableside .lineside #Gauge, .tableside .lineside #Radar {
+  width: 100%;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 350px;
+}
+
+/*# sourceMappingURL=echarts.css.map */

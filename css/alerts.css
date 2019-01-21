@@ -1,0 +1,152 @@
+body,
+p,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td,
+input,
+select,
+option,
+textarea,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*body::-webkit-scrollbar{
+	display: none;
+}*/
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+i {
+  display: inline-block;
+}
+
+.side1 {
+  padding-left: 15px;
+}
+
+.alertside .Alerts:nth-of-type(2n-1) {
+  margin-right: 3%;
+}
+
+.Alerts {
+  width: 48.5%;
+  background: white;
+  float: left;
+  margin-bottom: 40px;
+}
+.Alerts h3 {
+  font-size: 20px;
+  color: #53505f;
+  padding: 27px 0 27px 18px;
+  border-bottom: 1px solid #d8dadb;
+}
+.Alerts .Default {
+  padding: 0 18px 39px;
+}
+.Alerts .Default .line {
+  padding: 18px 20px 18px 21px;
+  line-height: 22px;
+  font-size: 20px;
+  color: #4c3d5a;
+  background: #cce5ff;
+  border-radius: 6px;
+  margin-top: 19px;
+}
+.Alerts .Default .line i {
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.Alerts .Default .line span {
+  font-size: 22px;
+  float: right;
+  color: #83766d;
+  font-weight: bold;
+}
+.Alerts .Default .line:nth-of-type(2) {
+  background: #e2e3e5;
+}
+.Alerts .Default .line:nth-of-type(3) {
+  background: #d4edda;
+}
+.Alerts .Default .line:nth-of-type(4) {
+  background: #f8d7da;
+}
+.Alerts .Default .line:nth-of-type(5) {
+  background: #fff3cd;
+}
+.Alerts .Default .line:nth-of-type(6) {
+  background: #d1ecf1;
+}
+.Alerts .Default .line:nth-of-type(7) {
+  background: #fefefe;
+}
+.Alerts .Default .line:nth-of-type(8) {
+  background: #d6d8d9;
+}
+.Alerts .articleside {
+  padding: 20px;
+}
+.Alerts .article {
+  padding: 10px 22px;
+  color: #155724;
+  background: #d4edda;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.Alerts .article h4 {
+  padding: 16px 0;
+  font-size: 20px;
+}
+.Alerts .article p {
+  font-size: 18px;
+  line-height: 27px;
+}
+.Alerts .article p:first-of-type {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b8e2c1;
+}
+.Alerts .article p:last-of-type {
+  padding-bottom: 10px;
+  padding-top: 19px;
+}
+.Alerts .article:nth-of-type(2) {
+  background: #fff3cd;
+}
+.Alerts .article:nth-of-type(2) p:first-of-type {
+  border-bottom: 1px solid #d5bc6d;
+}
+
+@media screen and (min-width: 1100px) {
+  .Alerts {
+    width: 48.5%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .Alerts {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=alerts.css.map */

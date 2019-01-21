@@ -1,0 +1,40 @@
+.tableside{
+  .lineside:nth-of-type(2n-1){
+    float:left;
+  }
+  .lineside:nth-of-type(2n){
+    float:right;
+  }
+  .lineside{
+    background:white;
+    width:49%;
+    margin-bottom:30px;
+    padding-bottom:40px;
+    h4{
+      padding:20px 20px 20px 20px;
+      color:#84505f;
+      font-size:20px;
+      line-height: 20px;
+      border-bottom:1px solid #e8e8e8;
+    }
+
+    #basic-line,#basic-area,#scatter,#Negative,#Rainfall,#Pie,#Nested,#Doughnut,#Gauge,#Radar{
+        width:100%;
+        padding:20px ;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+        height:350px;
+      }
+  }
+}
+
+
+
+
+
+
+
+
+
+

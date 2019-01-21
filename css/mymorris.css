@@ -1,0 +1,56 @@
+.morrisside .otherside:nth-of-type(1) {
+  width: 100%;
+}
+.morrisside .otherside:nth-of-type(2) {
+  width: 100%;
+}
+.morrisside .banside:nth-of-type(2n-1) {
+  float: left;
+}
+.morrisside .banside:nth-of-type(2n) {
+  float: right;
+}
+.morrisside .otherside {
+  background: white;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+}
+.morrisside .otherside h4 {
+  padding: 20px 20px 20px 20px;
+  color: #84505f;
+  font-size: 20px;
+  line-height: 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.morrisside .otherside #graph, .morrisside .otherside #Line {
+  width: 100%;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 350px;
+}
+.morrisside .banside {
+  background: white;
+  width: 48%;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+}
+.morrisside .banside h4 {
+  padding: 20px 20px 20px 20px;
+  color: #84505f;
+  font-size: 20px;
+  line-height: 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.morrisside .banside #bancharts1, .morrisside .banside #bancharts2, .morrisside .banside #bancharts3, .morrisside .banside #bancharts4 {
+  width: 100%;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 350px;
+}
+
+/*# sourceMappingURL=mymorris.css.map */

@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/weather-icons.min.css">
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/ionicons.css">
+    <link rel="stylesheet" href="css/WidgetsChart.css">
+    <title>Widgets Chart</title>
+</head>
+<body>
+<div class="header">
+    <div class="header-left">
+        <img src="images/logo.png" alt="">
+    </div>
+    <div class="header-left  changelog">
+        <img src="images/small-logo.png" alt="">
+    </div>
+    <div class="header-right">
+        <div class="header-right-leftside">
+            <div class="menu">
+                <i class="icon-menu"></i>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search..">
+                <button class="searbtn">
+                    <i class="ion-android-search"></i>
+                </button>
+            </div>
+            <div id="changserinp">
+                <i class=" icon-magnifier"></i>
+            </div>
+        </div>
+        <div class="header-right-rightside">
+            <ul>
+                <li class="changesize">
+                    <i class="icon-size-fullscreen"></i>
+                </li>
+                <li class="secondli">
+                    <img src="images/flag3.png" alt="" class="qi">
+                    <span class="country">English</span>
+                    <div class="jt"></div>
+                    <div class="language">
+                        <i></i>
+                        <p>
+                            <img src="images/flag1.png" alt="">
+                            <span>Deutsch</span>
+                        </p>
+                        <p>
+                            <img src="images/flag2.png" alt="">
+                            <span>Українська</span>
+                        </p>
+                        <p>
+                            <img src="images/flag3.png" alt="">
+                            <span>English</span>
+                        </p>
+                        <p>
+                            <img src="images/flag4.png" alt="">
+                            <span>España</span>
+                        </p>
+                        <p>
+                            <img src="images/flag5.png" alt="">
+                            <span>Русский</span>
+                        </p>
+                    </div>
+                </li>
+                <li class="messageside">
+                    <a href="javascript:;" class="infoa">
+                        <i class="fa fa-bell-o"></i>
+                        <span class="infonum">6</span>
+                    </a>
+                    <div class="messageinfo meaasgesone">
+                        <span class="zzz"></span>
+                        <ul>
+                            <li><a href="javascript:;">
+                                <span class="type">Notifications</span>
+                                <span class="count">New6</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <i class="fa fa-check"></i>
+                                <span class="type contitle"> Congratulations!. </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <i class="fa fa-user-o"></i>
+                                <span class="type contitle"> <b>John Micle </b>is now following you.  </span>
+                                <span class=" count time">3min</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <i class="fa fa-comments-o"></i>
+                                <span class="type contitle"> <b>Sneha Jogi </b>sent you a message.  </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <i class="fa fa-heart"></i>
+                                <span class="type contitle"><b>Ravi Patel </b> like your photo. </span>
+                                <span class=" count time">12mins</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <i class="fa fa-warning"></i>
+                                <span class="type contitle">  Warning!  </span>
+                                <span class=" count time">5mins</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <i class="fa fa-times"></i>
+                                <span class="type contitle"> Application error.</span>
+                                <span class=" count time">10hrs</span>
+                            </a></li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li class="descmess">
+                    <a href="javascript:;" class="messagea ">
+                        <i class="fa fa-envelope-o"></i>
+                        <span class="infonum">6</span>
+                    </a>
+                    <div class="messageinfo meaasgestwo">
+                        <span class="zzz"></span>
+                        <ul>
+                            <li><a href="javascript:;">
+                                <span class="type">MESSAGES</span>
+                                <span class="count">New2</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <img src="images/about-1.jpg" alt="">
+                                <span class="type contitle">
+                                    <p><b> Sarah Smith </b></p>
+                                    <p> Jatin I found you on LinkedIn... </p>
+                                </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <img src="images/about-1.jpg" alt="">
+                                <span class="type contitle">
+                                    <p><b> Sarah Smith </b></p>
+                                    <p> Jatin I found you on LinkedIn... </p>
+                                </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <img src="images/about-1.jpg" alt="">
+                                <span class="type contitle">
+                                    <p><b> Sarah Smith </b></p>
+                                    <p> Jatin I found you on LinkedIn... </p>
+                                </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <img src="images/about-1.jpg" alt="">
+                                <span class="type contitle">
+                                    <p><b> Sarah Smith </b></p>
+                                    <p> Jatin I found you on LinkedIn... </p>
+                                </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <img src="images/about-1.jpg" alt="">
+                                <span class="type contitle">
+                                    <p><b> Sarah Smith </b></p>
+                                    <p> Jatin I found you on LinkedIn... </p>
+                                </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <img src="images/about-1.jpg" alt="">
+                                <span class="type contitle">
+                                    <p><b> Sarah Smith </b></p>
+                                    <p> Jatin I found you on LinkedIn... </p>
+                                </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <img src="images/about-1.jpg" alt="">
+                                <span class="type contitle">
+                                    <p><b> Sarah Smith </b></p>
+                                    <p> Jatin I found you on LinkedIn... </p>
+                                </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+                            <li class="example"><a href="javascript:;" >
+                                <img src="images/about-1.jpg" alt="">
+                                <span class="type contitle">
+                                    <p><b> Sarah Smith </b></p>
+                                    <p> Jatin I found you on LinkedIn... </p>
+                                </span>
+                                <span class=" count time">just now</span>
+                            </a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="userdesc">
+                    <a href="javascript:;" class="userinfoa">
+                        <img src="images/about-1.jpg" alt="">
+                        <span class="userna"> Kiran </span>
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <div class=" usersta">
+                        <p><a href="javascript:;">
+                            <i class="icon-user"></i> Profile
+                        </a></p>
+                        <p><a href="javascript:;">
+                            <i class="icon-user"></i> Profile
+                        </a></p>
+                        <p><a href="javascript:;">
+                            <i class="icon-user"></i> Profile
+                        </a></p>
+                        <p><a href="javascript:;">
+                            <i class="icon-user"></i> Profile
+                        </a></p>
+                        <p><a href="javascript:;">
+                            <i class="icon-user"></i> Profile
+                        </a></p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!--section-->
+<section>
+    <div class="section-left" id="section-left">
+        <div class="line1">
+            <a href="javascript:;" >
+                <img src="images/about-1.jpg" alt="">
+            </a>
+            <p class="othercall">
+                Alexander Pierce
+            </p>
+            <a href="javascript:;" class="status">
+                <i class="fa fa-circle text-success"></i>online
+            </a>
+
+        </div>
+        <div class="guidemenu">
+            <ul class="uls">
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-home"></i>
+                        <span class="guidename">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-newspaper-o"></i>
+                        <span class="guidename">UI Elements </span>
+                        <span class="ajt"></span>
+                    </a>
+                    <ul>
+                        <li><a href="javascript:;">Alerts</a></li>
+                        <li><a href="javascript:;">Buttons</a></li>
+                        <li><a href="javascript:;">Cards</a></li>
+                        <li><a href="javascript:;">Dropsdowns</a></li>
+                        <li><a href="javascript:;">Grids</a></li>
+                        <li><a href="javascript:;">Lists</a></li>
+                        <li><a href="javascript:;">Modals</a></li>
+                        <li><a href="javascript:;">progress</a></li>
+                        <li><a href="javascript:;">Popover & Tooltips</a></li>
+                        <li><a href="javascript:;">Typography</a></li>
+                        <li><a href="javascript:;">Tabs</a></li>
+                        <li><a href="javascript:;">Tree</a></li>
+                        <li><a href="javascript:;">Toastr Notification</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-table"></i>
+                        <span class="guidename">Portlets </span>
+                        <span class="ajt"></span>
+                    </a>
+                    <ul>
+                        <li><a href="javascript:;">Portlets Base</a></li>
+                        <li><a href="javascript:;">Portlets Advanced</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-calendar"></i>
+                        <span class="guidename">Icons </span>
+                        <span class="ajt"></span>
+                    </a>
+                    <ul>
+                        <li><a href="javascript:;">Fontawesome Icons</a></li>
+                        <li><a href="javascript:;">Simple line Icons</a></li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-wpforms"></i>
+                        <span class="guidename">Widgets </span>
+                        <span class="ajt"></span>
+                    </a>
+                    <ul>
+                        <li><a href="javascript:;">Widgets Base</a></li>
+                        <li><a href="javascript:;">Widgets Chart</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-home"></i>
+                        <span class="guidename">Calendar </span>
+                        <span class="ajt"></span>
+                    </a>
+                    <ul>
+                        <li><a href="javascript:;">Basic Calendar</a></li>
+                        <li><a href="javascript:;">External Events Calendar</a></li>
+                        <li><a href="javascript:;">List Calendar</a></li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-grid"></i>
+                        <span class="guidename">Forms</span>
+                        <span class="ajt"></span>
+                    </a>
+                    <ul>
+                        <li><a href="javascript:;">Form Control</a></li>
+                        <li><a href="javascript:;">Form Validation</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-bar-chart text-aqua"></i>
+                        <span class="guidename">Data Tables</span>
+                        <span class="ajt"></span>
+                    </a>
+                    <ul>
+                        <li><a href="javascript:;">Basic Table</a></li>
+                        <li><a href="javascript:;">Data Tables</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-file text-aqua"></i>
+                        <span class="guidename">Charts</span>
+                        <span class="ajt"></span>
+                    </a>
+                    <ul>
+                        <li><a href="FlotCharts.html">Flot Charts</a></li>
+                        <li><a href="eCharts.html">eCharts</a></li>
+                        <li><a href="MorrisCharts.html">Morris Charts</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-file text-aqua"></i>
+                        <span class="guidename">Extra Pages</span>
+                        <span class="ajt"></span>
+                    </a>
+                    <ul>
+                        <li><a href="javascript:;">User Profile</a></li>
+                        <li><a href="javascript:;">Sign in</a></li>
+                        <li><a href="javascript:;">Sign Up</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class=" section-left " id="changeleft">
+        <div class="guidemenu changemenu">
+            <ul class="ulstwo">
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-home"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-newspaper-o"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="javascript:;">Alerts</a></li>
+                        <li><a href="javascript:;">Buttons</a></li>
+                        <li><a href="javascript:;">Cards</a></li>
+                        <li><a href="javascript:;">Dropsdowns</a></li>
+                        <li><a href="javascript:;">Grids</a></li>
+                        <li><a href="javascript:;">Lists</a></li>
+                        <li><a href="javascript:;">Modals</a></li>
+                        <li><a href="javascript:;">progress</a></li>
+                        <li><a href="javascript:;">Popover & Tooltips</a></li>
+                        <li><a href="javascript:;">Typography</a></li>
+                        <li><a href="javascript:;">Tabs</a></li>
+                        <li><a href="javascript:;">Tree</a></li>
+                        <li><a href="javascript:;">Toastr Notification</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-pie-chart"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="javascript:;">Portlets Base</a></li>
+                        <li><a href="javascript:;">Portlets Advanced</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-laptop"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="javascript:;">Fontawesome Icons</a></li>
+                        <li><a href="javascript:;">Simple line Icons</a></li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-table"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="javascript:;">Widgets Base</a></li>
+                        <li><a href="javascript:;">Widgets Chart</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-calendar"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="javascript:;">Basic Calendar</a></li>
+                        <li><a href="javascript:;">External Events Calendar</a></li>
+                        <li><a href="javascript:;">List Calendar</a></li>
+
+                    </ul>
+
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-wpforms"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="javascript:;">Form Control</a></li>
+                        <li><a href="javascript:;">Form Validation</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-grid"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="javascript:;">Basic Table</a></li>
+                        <li><a href="javascript:;">Data Tables</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-bar-chart text-aqua"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="javascript:;">Flot Charts</a></li>
+                        <li><a href="javascript:;">eCharts</a></li>
+                        <li><a href="javascript:;">Morris Charts</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="fa fa-file text-aqua"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="javascript:;">User Profile</a></li>
+                        <li><a href="javascript:;">Sign in</a></li>
+                        <li><a href="javascript:;">Sign Up</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="section-right">
+        <div class="side1">
+            <div class="subtitle">
+                <h3>
+                    Widgets Chart</h3>
+                <p>
+                    <i class="fa fa-home"></i>
+                    <a href="javascript:;">home</a>
+                    <i class="fa fa-angle-right"> </i>
+                    <span>Widgets Chart</span>
+                </p>
+            </div>
+        </div>
+        <div class="widgets-side2">
+            <div class="row">
+                <h3>General results</h3>
+                <div class="row-body">
+                    <div class="row-left">
+                        <div id="wcharts1">
+                        </div>
+                        <p>Followers 12.2322</p>
+                    </div>
+                    <div class="row-right" id="wcharts2">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h3>General results</h3>
+                <div class="row-body">
+                    <div class="row-left">
+                        <div id="wcharts3">
+                        </div>
+                        <p>Followers 12.2322</p>
+                    </div>
+                    <div class="row-right" id="wcharts4">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h3>General results</h3>
+                <div class="row-body">
+                    <div class="row-left">
+                        <div id="wcharts5">
+                        </div>
+                        <p>Followers 12.2322</p>
+                    </div>
+                    <div class="row-right" id="wcharts6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widgets-side3">
+            <div class="map-title">
+                <h4>Map</h4>
+            </div>
+            <div class="map" id="map">
+            </div>
+            <div class="map-table">
+                <h4>Revenue Streams</h4>
+               <table>
+                   <tr>
+                       <td>China</td>
+                       <td>Number</td>
+                       <td>1999</td>
+                       <td>50%</td>
+                       <td>
+                           <span>High</span>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>Australia</td>
+                       <td>Number</td>
+                       <td>2399</td>
+                       <td>60%</td>
+                       <td>
+                           <span>Medium</span>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>Europe</td>
+                       <td>Number</td>
+                       <td>1999</td>
+                       <td>70%</td>
+                       <td>
+                           <span>veryHigh</span>
+                       </td>
+                   </tr>
+               </table>
+            </div>
+        </div>
+        <div class="widgets-side4">
+            <div class="newside">
+                <div class="newone">
+                    <div class="new-title">
+                        <h4>12083</h4>
+                        <i class=" icon-options"></i>
+                    </div>
+                    <p>New Users</p>
+                    <div id="usercharts">
+                    </div>
+                </div>
+                <div class="newone">
+                    <div class="new-title">
+                        <h4>234</h4>
+                        <i class=" icon-options"></i>
+                    </div>
+                    <p>New Orders</p>
+                    <div id="orderscharts">
+                    </div>
+                </div>
+                <div class="newone">
+                    <div class="new-title">
+                        <h4>234</h4>
+                        <i class=" icon-options"></i>
+                    </div>
+                    <p>Yearly Revineue</p>
+                    <div id="yearlycharts">
+                    </div>
+                </div>
+                <div class="newone total">
+                    <div class="new-title">
+                        <h4>9876</h4>
+                        <i class=" icon-options"></i>
+                    </div>
+                    <p>Total Revineue</p>
+                    <div id="totalcharts">
+                    </div>
+                </div>
+                <div class="newone profitcharts">
+                    <div class="new-title">
+                        <h4>9876</h4>
+                        <i class=" icon-options"></i>
+                    </div>
+                    <p>Total Profit</p>
+                    <div id="Profitcharts">
+                    </div>
+                </div>
+                <div class="newone order">
+                    <div class="new-title">
+                        <h4>9876</h4>
+                        <i class=" icon-options"></i>
+                    </div>
+                    <p>Total Profit</p>
+                    <div id="orderscharts2">
+                    </div>
+                </div>
+                <div class="newone">
+                    <div class="new-title">
+                        <h4>9876</h4>
+                        <i class=" icon-options"></i>
+                    </div>
+                    <p>Total Profit</p>
+                    <div id="yearlycharts2">
+                    </div>
+                </div>
+                <div class="newone">
+                    <div class="new-title">
+                        <h4>9876</h4>
+                        <i class=" icon-options"></i>
+                    </div>
+                    <p>Total Profit</p>
+                    <div id="userscharts2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--footer-->
+<div class="footer">
+    <p>
+        2018 © Dashboard Theme By
+    </p>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/header.js"></script>
+<script src="node_modules/echarts/dist/echarts.js"></script>
+<script src="js/WidgetsChart.js"></script>
+<script src="node_modules/echarts/map/js/china.js"> </script>
+<script src="node_modules/echarts/map/js/world.js"> </script>
+<script src="node_modules/echarts/extension/bmap/bmap.js"> </script>
+
+
+<script>
+</script>
